@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #3cada6 !important; }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-family: "Lobster"; }
+  .navbar .nav-item {
+    padding: 0 10px !important; }
+
+.description {
+  margin: 40px 0;
+  text-align: center; }
+  .description .heading {
+    font-family: 'Tenali Ramakrishna';
+    color: #3cada6;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .description img {
+    width: 80px;
+    height: 80px; }
+  .description p {
+    font-family: "Montserrat";
+    margin: 15px 0;
+    color: #474747; }
+
+.items {
+  text-align: center; }
+  .items .item-box {
+    border: 1px solid #3cada6;
+    margin: 15px 0;
+    border-radius: 7px; }
+    .items .item-box img {
+      width: 100%;
+      height: 300px; }
+    .items .item-box .item-heading {
+      background-color: #3cada6;
+      padding: 15px 0;
+      color: #fff;
+      text-align: center;
+      font-family: "Tenali Ramakrishna";
+      font-size: 20px; }
+    .items .item-box .price {
+      margin: 10px 0; }
+      .items .item-box .price span:first-child {
+        display: inline-block;
+        padding-right: 10px;
+        color: red;
+        text-decoration: line-through; }
+      .items .item-box .price span:last-child {
+        display: inline-block;
+        font-weight: bold;
+        color: #25d625; }
+    .items .item-box a {
+      margin: 10px auto;
+      display: inline-block;
+      color: #3cada6;
+      border: 1px solid #3cada6;
+      border-radius: 7px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      transition: .3s ease-in-out; }
+      .items .item-box a:hover {
+        background-color: #3cada6;
+        color: #fff; }
+
+footer {
+  background-color: #3cada6;
+  margin-top: 25px; }
+  footer p {
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 0 !important;
+    font-family: "Poppins";
+    color: #fff; }
+    footer p span {
+      display: inline-block;
+      font-family: 'Lobster';
+      color: #ddd; }
+
+.guide {
+  margin: 20px 0; }
+
+/*# sourceMappingURL=style.css.map */
