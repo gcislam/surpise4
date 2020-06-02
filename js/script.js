@@ -1,6 +1,6 @@
 $(function() {
 
-    $('.surprise').fadeIn(1000);
+    $('.surprise').delay(700).fadeIn(1000);
 
 
 
